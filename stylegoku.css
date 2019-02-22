@@ -1,0 +1,47 @@
+@font-face {
+	font-family: saiyan-sans;
+	src: url("saiyan-sans.ttf");
+}
+
+body {
+	margin: 0px;
+	background-color: black;
+}
+
+h1 {
+	color: white;
+	font-family: fantasy;
+	text-align: center;
+	border-bottom: 2px solid red;
+	border-right: 2px solid red;
+	width: 400px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.backsplash {
+	 background:rgba(211,211,211, 0.2);
+     margin-top: 25px;
+     margin-bottom: 200px;
+}
+
+p {
+	font-family: saiyan-sans;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
